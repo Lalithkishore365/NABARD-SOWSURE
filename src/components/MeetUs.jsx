@@ -26,7 +26,7 @@ export default function MeetUs() {
       email: "athithiya.pa@gmail.com",
     },
     {
-      name: "Sriram SV",
+      name: "Sriram S V",
       github: "https://github.com/IamRasengan",
       linkedin: "https://www.linkedin.com/in/sriram-s-v-7ba98328a/",
       email: "siddharthsriram2005@gmail.com",

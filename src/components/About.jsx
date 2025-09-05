@@ -21,6 +21,18 @@ export default function About() {
       linkedin: "https://www.linkedin.com/in/athisivesh",
       github: "https://github.com/athisivesh",
     },
+    {
+      name: "Sriram S V",
+      email: "siddharthsriram2005@gmail.com",
+      linkedin: "https://www.linkedin.com/in/sriram-s-v-7ba98328a/",
+      github: "https://github.com/IamRasengan",
+    },
+    {
+      name: "Lokesh R",
+      email: "nrlokesh2005@gmail.com",
+      linkedin: "https://www.linkedin.com/in/lokesh-r-4a2b9728a/",
+      github: "https://github.com/LokeshR-25",
+    },
   ];
 
   return (
@@ -28,63 +40,105 @@ export default function About() {
       <h1 className="text-4xl font-bold text-center text-lime-700 mb-4" data-aos="fade-in">
         🌿 About SowSure
       </h1>
-      <p className="text-center text-md text-gray-600 mb-10 italic">A sustainable farming planner built by Team Thunders ⚡</p>
+      <p className="text-center text-md text-gray-600 mb-10 italic">
+        A sustainable farming planner built by Team Gentlemen
+      </p>
 
       {/* Problem Statement and Solution */}
       <div className="max-w-5xl mx-auto space-y-6 text-justify text-md text-gray-800">
         <section>
-          <h2 className="text-2xl font-semibold text-leaf mb-2">🚨 The Problem</h2>
-          <p>
-            Many small and marginal farmers in India face challenges in deciding which crops to grow, how to rotate or intercrop them effectively,
-            and where to get market and disease insights. Limited access to personalized, data-driven planning tools leads to suboptimal yield, soil degradation, and market losses.
-          </p>
+          <h2 className="text-2xl font-semibold text-leaf mb-4">🚨 The Problem</h2>
+          <div className="space-y-6">
+            {/* Lack of Unified Platforms */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-red-500" data-aos="fade-up">
+              <h3 className="text-lg font-bold text-red-600 mb-2">❌ Lack of Unified Platforms</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Smallholder farmers lack a single, reliable platform that integrates soil, climate, water, labor, 
+                and market factors to guide data-driven crop planning and resource management.
+              </p>
+            </div>
+
+            {/* Limited Scope of Existing Tools */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-orange-400" data-aos="fade-up" data-aos-delay="100">
+              <h3 className="text-lg font-bold text-orange-600 mb-2">⚠️ Limited Scope of Existing Tools</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Current solutions rarely support multi-cropping, organic practices, or dynamic resource use — all 
+                of which are critical for sustainable and climate-resilient agriculture.
+              </p>
+            </div>
+
+            {/* Fragmented and Inaccessible Data */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-yellow-400" data-aos="fade-up" data-aos-delay="200">
+              <h3 className="text-lg font-bold text-yellow-600 mb-2">📉 Fragmented and Inaccessible Data</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Agricultural data from satellites, IoT devices, and local records is often scattered, difficult to 
+                access, and not tailored to smallholder contexts — leading to missed opportunities for improving 
+                yield and profitability.
+              </p>
+            </div>
+
+            {/* Gap in MRV for Smallholders */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-green-500" data-aos="fade-up" data-aos-delay="300">
+              <h3 className="text-lg font-bold text-green-600 mb-2">🌍 Gap in MRV for Smallholders</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Most Monitoring, Reporting, and Verification (MRV) systems are either too complex or too costly, 
+                leaving smallholders without tools to prove climate benefits, access carbon finance, or align with 
+                sustainability frameworks.
+              </p>
+            </div>
+          </div>
         </section>
+
 
         <section>
-          <h2 className="text-2xl font-semibold text-leaf mb-2">💡 Our Solution</h2>
-          <p>
-            SowSure is an intelligent web-based assistant that helps farmers plan their crop cycles using AI-based recommendations.
-            It considers soil type, water access, and crop history to generate crop plans. It also includes disease detection, market price visualization,
-            calendar-based task reminders, and an upcoming labor connection feature — all in the farmer's preferred language.
-          </p>
+          <h2 className="text-2xl font-semibold text-leaf mb-4">🌱 Our Solution: SowSure</h2>
+          <div className="space-y-6">
+            
+            {/* Data-Driven Crop Recommendations */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-green-500" data-aos="fade-up">
+              <h3 className="text-lg font-bold text-green-600 mb-2">📊 Data-Driven Crop Advice</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                AI-powered crop recommendations using soil, climate, water, and labor data for smarter planting decisions.
+              </p>
+            </div>
+
+            {/* Sustainable Farming Support */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-emerald-500" data-aos="fade-up" data-aos-delay="100">
+              <h3 className="text-lg font-bold text-emerald-600 mb-2">🌾 Sustainable Practices</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Support crop rotation, intercropping, and organic manure to boost soil health and reduce chemical use.
+              </p>
+            </div>
+
+            {/* Accessible Farm Planning */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-blue-500" data-aos="fade-up" data-aos-delay="200">
+              <h3 className="text-lg font-bold text-blue-600 mb-2">📱 Easy Farm Planning</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Simple platform with localized advice, crop calendars, regional languages, and offline access.
+              </p>
+            </div>
+
+            {/* Integrated MRV */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-purple-500" data-aos="fade-up" data-aos-delay="300">
+              <h3 className="text-lg font-bold text-purple-600 mb-2">🌍 Climate MRV</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Track resources and yields with satellite & sensor data to prove climate benefits and enable carbon finance.
+              </p>
+            </div>
+
+            {/* SDG Contribution */}
+            <div className="bg-white rounded-lg p-5 shadow border-l-4 border-yellow-500" data-aos="fade-up" data-aos-delay="400">
+              <h3 className="text-lg font-bold text-yellow-600 mb-2">🎯 Aligned with SDGs</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                Boost farmer income while contributing to SDG 2 (Zero Hunger), SDG 12 (Responsible Consumption), and SDG 13 (Climate Action).
+              </p>
+            </div>
+
+          </div>
         </section>
 
-        <section>
-          <h2 className="text-2xl font-semibold text-leaf mb-2">👨‍👩‍👦 Contributors – Team Thunders ⚡</h2>
-          <ul className="space-y-4 mt-4">
-            {team.map((member, index) => (
-              <li
-                key={index}
-                className="bg-white shadow rounded-lg p-4 flex flex-col sm:flex-row sm:items-center justify-between"
-              >
-                <div>
-                  <p className="font-bold text-lg text-lime-700">{member.name}</p>
-                  <p className="text-sm text-gray-600 italic">{member.email}</p>
-                </div>
-                <div className="flex gap-4 mt-2 sm:mt-0 text-xl text-lime-700">
-                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                    <FaLinkedin />
-                  </a>
-                  <a href={member.github} target="_blank" rel="noopener noreferrer" title="GitHub">
-                    <FaGithub />
-                  </a>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </section>
       </div>
 
-      {/* Feedback Icon */}
-      <div className="mt-12 flex justify-center">
-        <Link
-          to="/feedback"
-          className="w-14 h-14 flex items-center justify-center rounded-full bg-lime-600 text-white text-2xl hover:bg-lime-700 shadow-lg transition-all"
-          title="Give Feedback"
-        >
-          ✍️
-        </Link>
-      </div>
 
       <p className="mt-8 text-center text-sm text-gray-500 italic">
         Built for farmers who feed the world — with tech that empowers them.

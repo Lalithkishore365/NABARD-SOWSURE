@@ -21,6 +21,7 @@ import FarmCalendarPage from "./components/FarmCalendarPage";
 import MarketMapPage from "./components/MarketMapPage";
 import HelplinePage from "./components/HelplinePage";
 import FeedbackPage from "./components/FeedbackPage";
+import MeetUs from "./components/MeetUs"; // ⬅️ NEW
 import "./i18n";
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
               <Route path="/market-map" element={<MarketMapPage />} />
               <Route path="/helpline" element={<HelplinePage />} />
               <Route path="/feedback" element={<FeedbackPage />} />
+              <Route path="/meetus" element={<MeetUs />} /> {/* ⬅️ NEW */}
               {/* 🔒 Optional fallback */}
               <Route path="*" element={<Navigate to="/" replace />} />
             </>

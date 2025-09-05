@@ -16,6 +16,7 @@ export default function Navbar() {
         <Link to="/form" className="hover:underline hover:text-lime-200 transition">Plan</Link>
         <Link to="/myfarm" className="hover:underline hover:text-lime-200 transition">My Farm</Link>
         <Link to="/helpline" className="hover:underline hover:text-yellow-200 transition">📞 Helpline</Link>
+        <Link to="/meetus" className="hover:underline hover:text-lime-200 transition">Meet Us</Link>
       </div>
     </nav>
   );

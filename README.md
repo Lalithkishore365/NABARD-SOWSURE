@@ -66,13 +66,15 @@ The platform is modular and scalable, built with accessibility and mobile usabil
 
 ---
 
-## 👥 Team Thunders – Contributors
+## 👥 Team Gentlemen – Contributors
 
-| Name            | GitHub Profile                        | LinkedIn Profile                     | Email                    |
-|-----------------|--------------------------------------|--------------------------------------|--------------------------|
-| Gautham R       | github.com/gautham-here               | linkedin.com/in/gautham-r2005        | gr0gautham@gmail.com     |
-| LalithKishore M | github.com/Lalithkishore365           | linkedin.com/in/lalithkishore37      | lalithkishore2109@gmail.com |
-| P A Athithiya   | github.com/athisivesh                 | linkedin.com/in/athisivesh           | athithiya.pa@gmail.com   |
+| Name            | GitHub Profile                        | LinkedIn Profile                     | Email                        |
+|-----------------|--------------------------------------|--------------------------------------|------------------------------|
+| Gautham R       | github.com/gautham-here               | linkedin.com/in/gautham-r2005        | gr0gautham@gmail.com         |
+| LalithKishore M | github.com/Lalithkishore365           | linkedin.com/in/lalithkishore37      | lalithkishore2109@gmail.com  |
+| P A Athithiya   | github.com/athisivesh                 | linkedin.com/in/athisivesh           | athithiya.pa@gmail.com       |
+| Sriram SV       | github.com/IamRasengan                | linkedin.com/in/sriram-s-v-7ba98328a | siddharthsriram2005@gmail.com|
+| Lokesh R        | github.com/LokeshR-25                 | linkedin.com/in/lokesh-r-4a2b9728a   | nrlokesh2005@gmail.com       |
 
 ---
 

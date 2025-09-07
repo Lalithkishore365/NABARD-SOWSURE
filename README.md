@@ -6,6 +6,8 @@ SowSure is an AI-powered web platform designed to empower small and marginal far
 
 🌐 Explore here: https://nabard-sowsure.vercel.app/
 
+You can view the project presentation [here](./SowSure%20-%20NABARD%20submission%20by%20Team%20Gentlemen.pdf).
+
 ---
 
 ## 🌾 Problem Statement

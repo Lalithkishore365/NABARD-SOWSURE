@@ -1,5 +1,7 @@
 # SowSure – Smart Crop Planning Assistant
 
+SUBMISSION TO NABARD HACKATHON BY TEAM GENTLEMEN
+
 SowSure is an AI-powered web platform designed to empower small and marginal farmers with intelligent crop cycle planning, localized agricultural support, and simplified access to critical farming insights. Developed as part of a hackathon initiative, the application combines agricultural best practices with modern AI and web technologies to solve real-world challenges in Indian agriculture.
 
 🌐 Explore here: https://nabard-sowsure.vercel.app/
@@ -80,12 +82,12 @@ The platform is modular and scalable, built with accessibility and mobile usabil
 
 ## 🗂 Project Structure
 
-/src
-/components — page components (About, FAQ, Helpline, Map, etc.)
-/pages — routing-based pages
-/assets — images and media
-App.jsx — main layout and routing
-main.jsx — entry point
+/src<br>
+/components — page components (About, FAQ, Helpline, Map, etc.)<br>
+/pages — routing-based pages<br>
+/assets — images and media<br>
+App.jsx — main layout and routing<br>
+main.jsx — entry point<br>
 
 ---
 
@@ -111,8 +113,7 @@ Built for farmers who feed the world — with tech that empowers them.
 
 ## 📝 License
 
-MIT License
-
+[![License](https://img.shields.io/github/license/Lalithkishore365/NABARD-SOWSURE)](./LICENSE)
 ---
 
 *Let us know if you'd like to add badges, CI/deployment instructions, or further enhancements!*
